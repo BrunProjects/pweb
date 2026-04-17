@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    width: auto;
+}
+
+main {
+    background-image: url(../images/padaria_fundo.jpg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao {
+    display: flex;
+    gap: 15px;
+
+}
+
+.navegacao a{
+    color: white;
+    margin: 5px 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.secao {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.rodape {
+    font-size: 14px;
+}
+
+.secao > .produto{
+    margin: 5px 20px;
+    padding: 5px 30px;
+
+    background: #f3f4f4;
+
+}
+
+.produto{
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border: 2px black solid;
+    border-radius: 30px;
+    transition: filter 0.2s ease;
+}
+
+.produto > img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.produto:hover{
+    filter: brightness(90%);
+}
+
+
+h1{
+    background-color: rgb(179, 75, 75);
+    align-self:center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0 5px;
+}
