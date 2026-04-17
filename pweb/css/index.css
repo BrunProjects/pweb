@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+    width: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegacao {
+    display: flex;
+    gap: 15px;
+}
+
+.navegacao a{
+    color: white;
+    margin: 5px 15px;
+    font-weight: bold;
+}
+
+.secao {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.rodape {
+    font-size: 14px;
+}
